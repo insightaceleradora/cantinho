@@ -1,0 +1,42 @@
+baseURL = "https://cantinhodaeconomia.com.br/"
+languageCode = "pt-BR"
+title = "Cantinho da Economia - Economia de Verdade Todos os Dias"
+theme = ""
+
+[params]
+  description = "Mais de 5.000 produtos com os menores preços do Vale do Rio Tijucas"
+  author = "Cantinho da Economia"
+  whatsapp = "5548991384623"
+  instagram = "cantinhodaeconomiaa"
+  
+[params.loja_canelinha]
+  endereco = "Rua General Liberato Bittencourt, 123 - Centro"
+  telefone = "(48) 3264-5500"
+  horario = "Seg a Sex: 8h às 20h | Sáb: 8h às 19h"
+  
+[params.loja_porto_belo]
+  endereco = "Av. Governador Celso Ramos, 456 - Centro"
+  telefone = "(47) 3369-4400"
+  horario = "Seg a Sex: 8h às 20h | Sáb: 8h às 19h"
+
+[menu]
+  [[menu.main]]
+    name = "Início"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Catálogo"
+    url = "/catalogo/"
+    weight = 2
+  [[menu.main]]
+    name = "Lista de Casamento"
+    url = "/lista-casamento/"
+    weight = 3
+  [[menu.main]]
+    name = "Trabalhe Conosco"
+    url = "/trabalhe-conosco/"
+    weight = 4
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
